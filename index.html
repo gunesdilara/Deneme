@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>DENEME</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="deneme.js"></script>
+    </head>
+    <body style="background-color: orange;">
+        <span class="harfler">J</span>
+        <span class="harfler">S</span>
+        <span class="harfler">cript</span>
+        <script>
+            var ad= "Dilara";
+            var soyad = "Güneş";
+            var adSoyad = ad + " " + soyad;
+            var toplam = adSoyad;
+            alert("Hoşgeldin " + toplam);
+            var egitmen = "Dilara Güneş";
+            if (egitmen == "Dilara Güneş"){
+                alert("Eğitmen "+ egitmen)
+            }
+        </script>
+        <button type="button" onclick="darkMode()">Gece Modu</button>
+        <button type="button" onclick="lightMode()">Gündüz Modu</button>
+        <div id="galeri">
+            <img src="../resimler/resim1.png" id="resim1"/>
+            <img src="../resimler/resim2.png" id="resim2"/>
+            <img src="../resimler/resim3.png" id="resim3"/>
+        </div>
+        <div>
+            <input type="button"onmousemove="resmiGoster1()" value="resim1">
+            <input type="button" onmousemove="resmiGoster2()" value="resim2">
+            <input type="button" onmousemove="resmiGoster3()" value="resim3">
+        </div>
+        </div>
+    </body>
+</html>
